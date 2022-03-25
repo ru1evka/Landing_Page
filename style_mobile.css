@@ -1,0 +1,128 @@
+@media screen and (max-width: 1024px) {
+           /* header */
+/*-------------------------------*/
+    .header {
+        height: 57px;
+        display: flex;
+    }
+    .conteiner {
+        width: 100%;
+    }
+    .header__content {
+        justify-content: space-between;
+    }
+    .logo {
+        margin-left: 18px;
+    }
+    .telephon {
+        margin-right: 18px;
+    }
+    nav {
+        display: none;
+    }
+    .button{
+        display: none;
+    }
+
+           /* intro */
+/*-------------------------------*/
+    .text__intro {
+        margin-left: 30px;
+    }
+
+           /* Slider */
+/*-------------------------------*/
+    .section__slider {
+        justify-content: center;
+    }
+    .slider {
+        height: 1525px;
+    }
+    .slider__test {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .silder__left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Completed{
+        width: 100%;
+        text-align: center;
+    }
+    .Only {
+        margin-left: 200px;
+        margin-right: 200px;
+        text-align: center;
+    }
+
+          /* Products */
+/*-------------------------------*/
+    .position {
+        flex-direction: column;
+    }
+    .conteiner__image {
+        margin-bottom: 100px;
+    }
+    .conteiner__image1 {
+        margin-bottom: 100px;
+    }
+
+           /* House */
+/*-------------------------------*/ 
+    .house {
+        display: none;
+    }
+
+           /* style */
+/*-------------------------------*/ 
+    .style {
+        margin-bottom: 0;
+    }
+    .style_background::before {
+        display: none;
+    }
+    .icons__position {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .right__batton{
+        display: block;
+        width: 150px;
+    }
+    .left__batton {
+        display: block;
+        width: 150px;
+    }
+    .Products {
+        margin-bottom: 0;
+    }
+    .conteiner6 {
+        display: none;
+    }
+    .media1024 {
+        display: flex;
+        justify-content: center;
+    }
+    .media__text{
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 138.6%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #E3B873;
+        width: 300px;
+    }
+
+           /* Clients */
+/*-------------------------------*/
+    .clients {
+        display: none;
+    }
+}

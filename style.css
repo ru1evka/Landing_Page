@@ -309,6 +309,7 @@ body {
     color: #E3B873;
     padding-bottom: 34px;
     margin: 0;
+    width: 160px;
 }
 
 .Only {
@@ -320,6 +321,8 @@ body {
     font-size: 14px;
     line-height: 27px;
     color: #FFFFFF;
+    text-align: justify;
+    margin-right: 50px;
 }
 
 .text {
@@ -1152,6 +1155,10 @@ li {
     margin-bottom: 110px;
 }
 
+.media1024 {
+    display: none;
+}
+
 .style_background {
     position: relative;
     display: flex;
@@ -1159,6 +1166,12 @@ li {
     height: 864px;
     background-size: cover;
     z-index: 0;
+}
+.right__batton {
+    display: none;
+}
+.left__batton {
+    display: none;
 }
 
 .style_background::before {
@@ -1411,7 +1424,7 @@ li {
 }
 
 .icons__city {
-    width: 100%;
+    width: 50%;
 }
 
            /* Forms */
@@ -1574,6 +1587,10 @@ li {
 }
 
 .input__Name2:focus ~ .ladel1 {
+    color: transparent;
+}
+
+.tel3:focus ~ .ladel1 {
     color: transparent;
 }
 
