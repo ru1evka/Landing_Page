@@ -126,3 +126,214 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .video {
+        background: #131313;
+    }
+    .video__cust {
+        width: 768px;
+    }
+    .image__Video {
+        width: 768px;
+        height: 407px;
+    }
+    .zapis {
+        color: #fff;
+    }
+    .input {
+        flex-direction: column;
+    }
+    .Name {
+        margin-bottom: 63px;
+        color: #bbbbbb;
+    }
+    .phone {
+        margin-bottom: 63px;
+        margin-left: 0;
+        color: #bbbbbb;
+    }
+    .container4 {
+        margin-bottom: 136px;
+        color: #fff;
+    }
+    .Submit {
+        margin-top: 47px;
+        margin-bottom: -148px;
+        margin-left: 0px;
+        width: 700px;
+        border: 1px solid #fff;
+        color: #fff;
+    }
+    .input__Name {
+        width: 699px;
+    }
+    .tel {
+        width: 699px;
+    }
+    .ladel {
+        color: #fff;
+    }
+    .form__input {
+        width: 679px;
+    }
+    .google__maps {
+        width: 679px;
+    }
+    .text__online1 {
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .img__slider {
+        width: 300px;
+        padding-bottom: 0;
+    }
+    .image__Video {
+        width: 320px;
+        height: 169px;
+    }
+    .video__cust {
+        width: 320px;
+    }
+    .video {
+        margin-top: -163px;
+    }
+    .play {
+        width: 37px;
+        top: -105px;
+        left: 148px;
+    }
+    .input__Name {
+        width: 300px;
+    }
+    .tel {
+        width: 300px;
+    }
+    .Submit {
+        width: 300px;
+    }
+    .tovar1 {
+        width: 300px;
+    }
+    .tovar2 {
+        width: 300px;
+    }
+    .tovar3 {
+        width: 300px;
+    }
+    .block__text {
+        width: 270px;
+        margin-top: 220px;
+    }
+    .conteiner__image{
+        margin-bottom: -6px;
+    }
+    .conteiner__image1{
+        margin-bottom: -6px;
+    }
+    .conteiner__image2{
+        margin-bottom: -6px;
+    }
+    .form__input {
+        width: 300px;
+        height: 550px;
+        margin-bottom: 101px;
+    }
+    .display__input {
+        flex-direction: column;
+    }
+    .phone2 {
+        margin-left: 0;
+    }
+    .tel3,.Question {
+        width: 235px;
+    }
+    .Submit__bt {
+        margin-bottom: 30px;
+    }
+    .container5{
+        font-size: 12px;
+        margin-left: 26px;
+    }
+    .footer{
+        display: none;
+    }
+    .google__maps{
+        width: 300px;
+        height: 255px;
+        margin-top: -459px;
+    }
+    .addres{
+        margin-top: 218px;
+        font-size: 15px;
+    }
+    .slider__test{
+        width: 320px;
+    }
+    .text__z{
+        font-size: 20px;
+        line-height: 132.83%;
+    }
+    .text__y {
+        font-size: 12px;
+        line-height: 135.84%;
+        margin-bottom: 60px;
+    }
+    .dark {
+        height: 476px;
+    }
+    .CALCULATE {
+        width: 264px;
+        margin-bottom: 26px;
+    }
+    .SUBMIT{
+        width: 264px;
+    }
+    .Completed {
+        width: 300px;
+    }
+    .Only {
+        width: 300px;
+        margin: 0;
+    }
+    .text{
+        width: 300px;   
+    }
+    .section__slider {
+        display: none;
+    }
+    .slider{
+        height: 1033px;
+    }
+    .zapis {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 169.8%;
+        text-align: center;
+        color: #FFFFFF;
+        padding-bottom: 38px;
+    }
+    .logo{
+        font-size: 9px;
+    }
+    .telephon {
+        font-size: 9px;
+        margin-left: 44px;
+    }
+    .text__online {
+        margin-top: 30px;
+    }
+    .style_background{
+        height: 242px;
+        margin-bottom: 138px;
+    }
+    .left__batton {
+        width: 61px;
+    }
+    .right__batton{
+        width: 61px;
+    }
+}
