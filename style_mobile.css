@@ -1,3 +1,86 @@
+@media screen and (max-width: 1235px) {
+    .position {
+        flex-direction: column;
+    }
+    .style_background::before {
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .conteiner6 {
+        display: none;
+    }
+    .icons__position{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 864px;
+    }
+    .left__batton {
+        display: block;
+        width: 150px;
+    }
+    .right__batton {
+        display: block;
+        width: 150px;
+    }
+    .media1024 {
+        display: flex;
+        justify-content: center;
+    }
+    .media__text{
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 138.6%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #E3B873;
+        width: 300px;
+    }
+    .house {
+        display: none;
+    }
+    .clients{
+        display: none;
+    }
+    .form__input {
+        width: 100%;
+    }
+    .form__img {
+        background: #181818;
+    }
+    .form__img::before {
+        background-color: rgba(0, 0, 0, 0);;
+    }
+}
+@media screen and (max-width: 1197px) {
+    .header {
+        height: 57px;
+        display: flex;
+    }
+    .conteiner {
+        width: 100%;
+    }
+    .header__content {
+        justify-content: space-between;
+    }
+    .logo {
+        margin-left: 18px;
+    }
+    .telephon {
+        margin-right: 18px;
+    }
+    nav {
+        display: none;
+    }
+    .button{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+}
 @media screen and (max-width: 1024px) {
            /* header */
 /*-------------------------------*/
@@ -33,10 +116,11 @@
            /* Slider */
 /*-------------------------------*/
     .section__slider {
+        display: none;
         justify-content: center;
     }
     .slider {
-        height: 1525px;
+        height: 1402px;
     }
     .slider__test {
         display: flex;
@@ -48,6 +132,26 @@
         flex-direction: column;
         align-items: center;
     }
+    .slider__right {
+        display: flex;
+        justify-content: center;
+    }
+    .icons__slider {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 475px;
+        width: 668px;
+    }
+    .img__slider {
+        display: none;
+    }
+    .img__slider1 {
+        display: block;
+        width: 668px;
+        padding-bottom: 331px;
+    }
     .Completed{
         width: 100%;
         text-align: center;
@@ -56,6 +160,13 @@
         margin-left: 200px;
         margin-right: 200px;
         text-align: center;
+    }
+    .text {
+        position: absolute;
+        padding-top: 733px;
+    }
+    .img__slider {
+        padding-bottom: 331px;
     }
 
           /* Products */
@@ -125,17 +236,74 @@
     .clients {
         display: none;
     }
+    .google__maps {
+        width: 750px;
+    }
 }
-
+@media screen and (max-width: 817px) {
+    .image__Video{
+        width: 100%;
+    }
+    .video__cust {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 798px) {
+    .video {
+        background: #131313;
+    }
+    .image__Video{
+        height: 410px;
+    }
+    .zapis {
+        color: #fff;
+    }
+    .input {
+        flex-direction: column;
+    }
+    .Name {
+        margin-bottom: 63px;
+        color: #bbbbbb;
+    }
+    .phone {
+        margin-bottom: 63px;
+        margin-left: 0;
+        color: #bbbbbb;
+    }
+    .container4 {
+        margin-bottom: 136px;
+        color: #fff;
+    }
+    .Submit {
+        margin-top: 47px;
+        margin-bottom: -148px;
+        margin-left: 0px;
+        width: 700px;
+        border: 1px solid #fff;
+        color: #fff;
+    }
+    .input__Name {
+        width: 699px;
+    }
+    .tel {
+        width: 699px;
+    }
+    .ladel {
+        color: #fff;
+    }
+    .form__input {
+        width: 679px;
+    }
+}
 @media screen and (max-width: 768px) {
     .video {
         background: #131313;
     }
     .video__cust {
-        width: 768px;
+        width: 100%;
     }
     .image__Video {
-        width: 768px;
+        width: 100%;
         height: 407px;
     }
     .zapis {
@@ -184,25 +352,49 @@
         margin-top: 30px;
     }
 }
+@media screen and (max-width: 706px){
+    .image__Video{
+        height: 375px;  
+    }
+    .play{
+        top: -267px;
+        left: 306px;
+    }
+}
 @media screen and (max-width: 320px) {
     .img__slider {
         width: 300px;
         padding-bottom: 0;
     }
+    .img__slider1 {
+        width: 300px;
+        padding-bottom: 240px;
+    }
+    .icons__slider {
+        width: 300px;
+        height: 217px;
+    }
     .image__Video {
-        width: 320px;
-        height: 169px;
+        width: 300px;
+        height: 159px;
+        margin-left: 10px;
     }
     .video__cust {
-        width: 320px;
+        width: 300px;
+        justify-content: center;
     }
     .video {
         margin-top: -163px;
+        height: 636px;
     }
     .play {
         width: 37px;
         top: -105px;
-        left: 148px;
+        left: 138px;
+    }
+    .line {
+        padding-top: 28px;
+        padding-bottom: 21px;
     }
     .input__Name {
         width: 300px;
@@ -212,6 +404,10 @@
     }
     .Submit {
         width: 300px;
+        background: #E3B873;
+    }
+    .text__online1{
+        margin-top: 83px;
     }
     .tovar1 {
         width: 300px;
@@ -270,6 +466,27 @@
     }
     .slider__test{
         width: 320px;
+    }
+    .text {
+        padding-top: 469px;
+    }
+    .City {
+        font-size: 14px;
+    }
+    .time{
+        font-size: 14px;
+    }
+    .apartment {
+        font-size: 14px;
+    }
+    .Cost {
+        font-size: 14px;
+    }
+    .p__l{
+        font-size: 11px;
+    }
+    .p__r{
+        font-size: 11px;
     }
     .text__z{
         font-size: 20px;

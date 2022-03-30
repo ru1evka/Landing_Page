@@ -420,6 +420,9 @@ body {
 .img__slider {
     padding-bottom: 92px;
 }
+.img__slider1 {
+    display: none;
+}
 
            /* Video */
 /*-------------------------------*/
@@ -773,7 +776,6 @@ li {
     width: 330px;
     height: 282px;
     background: #FFFFFF;
-
 }
 
 .m2{
@@ -1167,6 +1169,11 @@ li {
     background-size: cover;
     z-index: 0;
 }
+
+.style_background-img{
+    display: none;
+}
+
 .right__batton {
     display: none;
 }
