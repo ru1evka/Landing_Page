@@ -405,6 +405,10 @@ body {
     padding-bottom: 9px;
 }
 
+.arrows {
+    width: 206px;
+    margin-top: 13px;
+}
 
    /* Slider__RIGHT */   
 /*--------------------*/
@@ -656,6 +660,7 @@ body {
     height: 18px;
     width: 18px;
     border-radius: 2px;
+    border: .5px solid #000000;
     background-color: #E3B873;
 }
 
@@ -665,7 +670,8 @@ body {
 }
 
 .container4 .check-highload:checked ~ .highload2 {
-    background-color: #ccc;
+    background-color: #fff;
+    border: .5px solid #000000;
 }
 
 .highload2:after {
@@ -1066,7 +1072,7 @@ li {
 }
 
 .container5 .check-highload:checked ~ .highload2 {
-    background-color: #ccc;
+    background-color: #fff;
 }
 
 .highload2:after {
@@ -1078,12 +1084,12 @@ li {
     display: block;
 }
  
-.container5 .highload2:after {
+.container5 .highload2::after {
     left: 7px;
     top: 3px;
     width: 3px;
     height: 8px;
-    border: solid white;
+    border: solid #fff;
     border-width: 0 1.5px 1.5px 0;
     transform: rotate(45deg);
     transition: border 0.4s linear;
