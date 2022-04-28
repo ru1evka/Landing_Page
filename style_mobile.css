@@ -366,6 +366,155 @@
         left: 306px;
     }
 }
+@media screen and (max-width: 706px){
+    .conteiner1 {
+        width: auto;
+    }
+    .dark {
+        height: 476px;
+    }
+    .button__grup{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .CALCULATE {
+        margin-right: 0;
+        margin-bottom: 26px;
+        width: 310px;
+    }
+    .SUBMIT{
+        width: 310px; 
+    }
+    .logo {
+        font-size: 9px;
+    }
+    .telephon {
+        font-size: 9px;
+    }
+    .text__z {
+        font-family: Yeseva One;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+    .text__y {
+        padding-right: 5px;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 50px;
+    }
+    .text__intro {
+        margin-left: 0px;
+    }
+    .slider {
+        height: 1235px;
+    }
+    .Only {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .img__slider1 {
+       width: 321px;
+   }
+   .text {
+       padding-top: 544px;
+   }
+   .icons__slider {
+    height: 238px;
+    width: 320px;
+}
+   .left__batton {
+    width: 90px;
+}
+   .right__batton {
+       width: 90px;
+   }
+   .play {
+       top: -129px;
+       left: 118px;
+       width: 100px;
+   }
+   .image__Video {
+       height: 171px;
+   }
+   .zapis {
+       font-size: 14px;
+   }
+   .input__Name {
+       width: 310px;    
+   }
+   .tel {
+       width: 310px;
+   }
+   .Submit {
+       width: 310px;
+   }
+   .form__input {
+       width: 321px;
+   }
+   .tel3 {
+       width: 231px;
+   }
+   .display__input{
+       flex-direction: column;
+   }
+   .phone2 {
+       margin-left: 0;
+   }
+   .Question {
+       width: 231px;
+   }
+   .tovar1{
+       width: 321px;
+   }
+   .tovar2{
+    width: 321px;
+    }   
+    .tovar3{
+    width: 321px;
+    }
+    .block__text {
+        width: 310px;
+    }
+   .Submit__bt:hover {
+    border: 10px solid #E3B873;
+   }
+   .google__maps {
+       width: 321px;
+       height: 365px;
+   }
+}
+@media screen and (max-width: 425px) {
+    .play {
+        top: -160px;
+        left: 166px;
+    }
+    .image__Video {
+        height: 226px;
+    }
+    .icons__slider {
+        height: 238px;
+        width: 320px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .play {
+        top: -146px;
+        left: 145px;
+    }
+    .image__Video {
+        height: 199px;
+    }
+}
 @media screen and (max-width: 320px) {
     .img__slider {
         width: 300px;
